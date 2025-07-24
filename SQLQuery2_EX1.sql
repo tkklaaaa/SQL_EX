@@ -16,7 +16,7 @@ where CategoryID in (1,2,4,8) and UnitPrice between 50 and 100;
 select Country,City,CompanyName,ContactName,Phone
 from Customers
 
-select ProductID
+select *
 from Products
 where (CategoryID = 1 and UnitPrice <= 50) or (CategoryID = 8 and UnitPrice <= 75)
 
