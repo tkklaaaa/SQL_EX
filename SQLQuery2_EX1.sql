@@ -5,7 +5,7 @@
 --4. ข้อมูลของสินค้ารหัสประเภทที่ 1 ราคาไม่เกิน 50 หรือสินค้ารหัสประเภทที่ 8 ราคาไม่เกิน 75
 --5. ชื่อบริษัทลูกค้า ที่อยู่ใน ประเทศ USA ที่ไม่มีหมายเลข FAX  เรียงตามลำดับชื่อบริษัท 
 
-select EmployeeID,TitleOfCourtesy,FirstName,LastName,City 
+select EmployeeID,TitleOfCourtesy,FirstName,LastName
 from Employees
 where City = 'London';
 
