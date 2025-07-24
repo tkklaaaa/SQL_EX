@@ -24,3 +24,9 @@ select CompanyName
 from Customers
 where Country = 'USA' and Fax is NULL
 order by CompanyName asc
+
+
+--6 ต้องการรหัสลูกค้า ชื่อบริษัท และชื่อผู้ติดต่อ เฉพาะชื่อบริษัท 'con'
+select CustomerID,CompanyName,ContactName
+from Customers
+where CompanyName like '%con%'
